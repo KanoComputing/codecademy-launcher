@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Codecademy
 Comment=Learn to code
-Exec=chromium http://www.codecademy.com/
+Exec=chromium --app=http://www.codecademy.com/
 Icon=/opt/kano/codecademy-launcher/codecademy-icon.png
 Type=Application
 Categories=Application;Education;
