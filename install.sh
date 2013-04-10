@@ -13,7 +13,7 @@
 
 LAUNCHER_DIR="/opt/kano/codecademy-launcher"
 
-if [ -d LAUNCHER_DIR ]
+if [ -d $LAUNCHER_DIR ]
 then
   echo "[Codecademy Launcher installer] It looks like you've already got the Codecademy Launcher installed."
   echo "[Codecademy Launcher installer] You'll need to remove $LAUNCHER_DIR to install."
@@ -24,6 +24,6 @@ echo "[Codecademy Launcher installer] Installing Chromium."
 sudo apt-get install chromium git-core
 
 echo "[Codecademy Launcher installer] Installing desktop icon."
-mkdir -p $LAUNCHER_DIR
-git clone git://github.com/KanoComputing/codecademy-launcher.git $LAUNCHER_DIR/codecademy-launcher
+sudo mkdir -p $LAUNCHER_DIR
+sudo git clone git://github.com/KanoComputing/codecademy-launcher.git $LAUNCHER_DIR/codecademy-launcher
 ln -s $LAUNCHER_DIR/codecademy-launcher/codecademy.desktop $HOME/Desktop/codecademy.desktop
