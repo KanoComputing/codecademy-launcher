@@ -26,4 +26,4 @@ sudo apt-get install chromium git-core
 echo "[Codecademy Launcher installer] Installing desktop icon."
 sudo mkdir -p $LAUNCHER_DIR
 sudo git clone git://github.com/KanoComputing/codecademy-launcher.git $LAUNCHER_DIR
-ln -s $LAUNCHER_DIR/codecademy-launcher/codecademy.desktop $HOME/Desktop/codecademy.desktop
+ln -s $LAUNCHER_DIR/codecademy.desktop $HOME/Desktop/codecademy.desktop
