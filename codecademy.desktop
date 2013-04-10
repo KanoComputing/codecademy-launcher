@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Codecademy
+Comment=Learn to code
+Exec=chromium http://www.codecademy.com/
+Type=Application
+Categories=Application;Education;
