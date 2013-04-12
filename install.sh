@@ -21,7 +21,7 @@ then
 fi
 
 echo "[Codecademy Launcher installer] Installing Chromium."
-sudo apt-get install chromium git-core
+sudo apt-get -y install chromium git-core
 
 echo "[Codecademy Launcher installer] Installing desktop icon."
 sudo mkdir -p $LAUNCHER_DIR
