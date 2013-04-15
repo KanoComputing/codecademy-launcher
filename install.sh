@@ -40,7 +40,7 @@ echo -e "[Codecademy Launcher installer] Installing Chromium ..."
 sudo apt-get -y install chromium-browser
 
 echo  -e "\nInstalling git ...\n"
-sudo apt-get install git
+sudo apt-get -y install git
 
 echo -e "\n[Codecademy Launcher installer] Installing desktop icon."
 sudo mkdir -p $LAUNCHER_DIR
