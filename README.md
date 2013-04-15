@@ -7,11 +7,11 @@ Installation
 ------------
 
 ```sh
-curl -L https://github.com/KanoComputing/codecademy-launcher/raw/master/install.sh | sh
+curl -L http://goo.gl/iFBzR | sh
 ```
 
 or
 
 ```sh
-wget --no-check-certificate https://github.com/KanoComputing/codecademy-launcher/raw/master/install.sh -O - | sh
+wget --no-check-certificate http://goo.gl/iFBzR -O - | sh
 ```
