@@ -33,7 +33,7 @@ echo -e "====================================\n"
 echo -e "\n Updating source lists to download dependencies ... \n Please check your internet connection! \n"
 echo -e "====================================\n"
 sleep 2
-apt-get update 
+sudo apt-get update 
 
 if test -d $LAUNCHER_DIR;
 then
