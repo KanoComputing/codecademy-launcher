@@ -28,6 +28,13 @@ delete()
 	esac
 }
 
+#Update source-list of dependencies
+echo -e "====================================\n"
+echo -e "\n Updating source lists to download dependencies ... \n Please check your internet connection! \n"
+echo -e "====================================\n"
+sleep 2
+apt-get update 
+
 if test -d $LAUNCHER_DIR;
 then
   	echo  -e "\n[Codecademy Launcher installer] It looks like you've already got the Codecademy Launcher installed."
